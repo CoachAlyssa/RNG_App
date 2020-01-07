@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Day 1-->
+    <TextView
+        android:id="@+id/random_number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:text="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="72dp"/>
+
+    <!--Day 2-->
+    <!--<ImageView-->
+        <!--android:id="@+id/random_image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="6"-->
+        <!--android:layout_margin="50dp"-->
+        <!--android:src="@drawable/one"/>-->
+
+    <Button
+        android:id="@+id/generate_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:text="Generate!"
+        android:textSize="36dp"/>
+
+</LinearLayout>
